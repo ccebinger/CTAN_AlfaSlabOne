@@ -1,0 +1,26 @@
+This is the README for the alfaslabone package, version 0.0.1 (2021/01/16).
+  
+This package provides LaTeX, pdfLaTeX support for the Alfa Slab One Regular
+Font, designed by JM Solé.
+
+To use, add
+
+     \usepackage{alfaslabone}
+
+to the preamble of your document. These will activate Alfa Slab One as the text font. 
+
+Options scaled=<number> or scale=<number> may be used to scale the fonts.
+
+For example see at alfaslabone-samples.tex.
+
+Font encodings supported are OT1, T1, LY1.
+
+The original TrueType fonts were obtained from
+
+      https://fonts.google.com/specimen/Alfa+Slab+One
+
+and are licensed under the SIL Open Font License, version 1.1; the text may be
+found in the doc directory. The type1 versions were created using cfftot1. The
+support files were created using autoinst and are licensed under the terms of
+the LaTeX Project Public License. The maintainer of this package is Carl-Clemens
+Ebinger at post(at)ebinger(dot)cc.
